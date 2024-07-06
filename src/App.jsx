@@ -11,7 +11,7 @@ import { useState, useEffect } from "react";
 import { format } from "date-fns";
 
 function App() {
-  const api_url = "https://json-post-1.onrender.com/posts"; // JSON server URL
+  const api_url = "https://json-post-2.onrender.com/posts"; // JSON server URL
   const [posts, setPosts] = useState([]);
   const [search, setSearch] = useState("");
   const [searchResults, setSearchResults] = useState([]);
